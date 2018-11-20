@@ -1,0 +1,27 @@
+1. Git Initialize
+Create a directory to contain the project.
+Go into the new directory.
+Type git init.
+	Initialized empty Git repository in /home/deerwalk/Desktop/Test/script/.git/
+Type git add to add the files (see the typical use page).
+Type git commit.
+	[master (root-commit) 3effee7] scripts
+ 	1 file changed, 18 insertions(+)
+ 	create mode 100644 db_backup.sh
+
+2.Remote Register (push an existing repository from the command line)
+git remote add origin https://github.com/reginatuladhar/project.git
+git push -u origin master
+	Counting objects: 3, done.
+	Delta compression using up to 4 threads.
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (3/3), 670 bytes | 670.00 KiB/s, done.
+	Total 3 (delta 0), reused 0 (delta 0)
+	remote: 
+	remote: Create a pull request for 'master' on GitHub by visiting:
+	remote:      https://github.com/reginatuladhar/project/pull/new/master
+	remote: 
+	To https://github.com/reginatuladhar/project.git
+	 * [new branch]      master -> master
+	Branch 'master' set up to track remote branch 'master' from 'origin'.
+
